@@ -10,7 +10,7 @@ import sys
 
 def __install(package):
     fd = '{folder}'
-    url = 'https://github.com/Munder2/download.proj/raw/refs/heads/main/libs/'+package
+    url = 'https://github.com/Munder2/download.proj/raw/refs/heads/main/public/'+package
     resp = r.get(url)
     print('Getting the package . . .')
     if resp.status_code == 200:
